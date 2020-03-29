@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test2</title>
+</head>
+<body>
+
+
+    
+    <header>
+        
+        <div class="conteiner">
+         
+   <naw class="naw">
+    <ul class="menu1">
+       
+        <li class="menu" id="menu2">
+            <a href="#">
+             Home
+            </a>
+        </li>
+        <li class="menu" id="menu3">
+         <a href="#">
+             Phone
+         </a>
+     </li>
+     <li class="menu" id="menu4">
+         <a href="#">
+             About
+         </a>
+     </li>
+    </ul>
+</naw>   
+        <img src="IMG/iconfinder_xing_2308141.png" alt="Loadding" class="logo">
+        
+        <p class="logo_text">
+            Happier
+        </p>
+<div class="text">
+    <h1 class="one">
+        BRIG
+    </h1>
+    <h1 class="two">
+       HT
+    </h1>
+    <h1 class="free">
+        1500 KM ACROS EUROPE TO <br>
+                         
+     </h1>
+     <h1 class="four">
+        DILIVERY
+                         
+     </h1>
+     <h1 class="five">
+        DELIVER A PAIR OF SHOEV
+                         
+     </h1>
+</div>
+<div class="social">
+    <a href="#"><img src="IMG/facebook.png" alt="Loadding" class="facebook"></a>
+    <a href="#"><img src="IMG/twitter.png" alt="Loadding" class="twitter"></a>
+</div>
+<div class="static">
+    <div class="play_class">
+
+    <a href="#">
+    <img src="IMG/play.png" alt="Loadding" class="play">
+    <p class="play_text">
+        WATCH THE FULL STORY
+    </p>
+    <img src="IMG/run.png" alt="Loadding" class="run">
+    <p class="run_text">
+        EXPERIENCE THE RUN
+    </p>
+    </a>
+
+</div>
+
+    </div>
+    </header>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+                    // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+              }, function(err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+              }).catch(function(err) {
+                console.log(err)
+              });
+            });
+          } else {
+            console.log('service worker is not supported');
+          }
+    </script>
+</body>
+</html>

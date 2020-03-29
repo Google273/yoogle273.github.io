@@ -1,0 +1,832 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+}
+.conteiner {
+    height:auto;   
+    width: 1100px;
+    margin-left: 80px;
+
+}
+
+
+header {
+    background:url(../IMG/fone.jpg) no-repeat center top/ cover;
+    height: 800px;
+    width: auto;
+    padding: 1px;
+}
+.logo {
+
+    width: 70px;
+    padding-top: 60px;
+}
+.logo_text {
+    float: right;
+    margin-right: 906px;
+    margin-top: -56px;
+    font-size: 30px;
+    color: #fff;
+}
+.menu {
+    list-style-type: none;
+    float: right;
+    margin-right: 160px;
+    
+    margin-top: 92px;
+    width: 0%;
+}
+
+.menu a {
+    position: relative;
+    text-decoration: none;
+    color: #9D8D8F;
+    transition: 0.5s;  
+    padding-bottom: 5px;
+}
+.menu a::before {
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #fAED26;
+    position: absolute;
+    transition: 1s;
+
+ }
+.menu a:hover:before {
+   
+     width: 100%;    
+}
+.menu a:hover {
+    color: #fAED26;    
+}
+.one {
+    color: #fAED26;
+    font-size: 80px;
+    margin-top: 100px;
+}
+.two {
+    color: #fAED26;
+    font-size: 51px;
+    margin-left: 250px;
+    margin-left: 202px;
+    margin-top: -142px;
+}
+.free {
+    color: #9D8D8F;
+    font-size: 19px;
+    margin-left: 207px;
+    margin-top: -44px;
+}
+.four {
+    color: #fAED26;
+    font-size: 56px;
+    margin-top: -23px;
+}
+.five {
+    color: #9D8D8F;
+    font-size: 19px;
+    margin-left: 287px;
+    margin-top: -97px;
+}
+.facebook {
+    height: 32px;
+    filter: grayscale(1);
+    float: right;
+    margin-right: 105px;
+
+}
+.facebook:hover {
+    
+    transition: 1s;
+    filter: grayscale(0);
+
+}
+.twitter {
+    height: 32px;
+    filter: grayscale(1);
+    float: right;
+    margin-right: -32px;
+    margin-top: 49px;
+}
+.twitter:hover {
+    
+    transition: 1s;
+    filter: grayscale(0);
+
+}
+.static {
+    color: yellow;
+}
+.play {
+    height: 32px;
+    float: right;
+    margin-top: 373px;
+    margin-right: -27px;
+}
+.play_class a {
+    text-decoration: none;
+    
+}
+.play_text {
+    color: #fff;
+    margin-top: 380px;
+    /* margin-left: 767px; */
+    float: right;
+    margin-right: 1px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.play_text::before {
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    position: absolute;
+    width: 0%;
+    background-color: #fAED26;
+}
+.play_text:hover:before {
+    width: 100%;
+    transition: 2s;
+}
+.run {
+    margin-top: 378px;
+    height: 32px;
+    float: right;
+    margin-right: 64px;
+}
+.run_text {
+    color: #fff;
+    margin-top: 380px;
+    /* margin-left: 767px; */
+    float: right;
+    margin-right: 9px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.run_text::before {
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    position: absolute;
+    width: 0%;
+    background-color: #fAED26;
+}
+.run_text:hover:before {
+    width: 100%;
+    transition: 2s;
+}
+
+
+
+
+@media (min-width:0) and (max-width:320px) {
+html {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+body {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden; 
+}
+header {
+    background:url(../IMG/fone.jpg) no-repeat center top/ cover;
+    height: 900px;
+    width: auto;
+}
+.conteiner {
+    height:auto;   
+    width: 1100px;
+    margin-left: 60px;
+
+}
+.logo {
+    width: 70px;
+    padding-top: 60px;
+    margin-left: -51px;
+}
+.logo_text {
+    float: right;
+    margin-right: 957px;
+    margin-top: -257px;
+    font-size: 30px;
+    color: #fff;
+}
+.menu {
+    list-style-type: none;
+    float: right;
+    margin-right: 176px;
+    margin-top: 0;
+    margin-top: 20px;
+    margin-left: -77px;
+}
+.menu1 {
+    display: flex;
+}
+.one {
+    color: #fAED26;
+    font-size: 55px;
+    margin-top: -17px;
+    margin-left: -44px;
+}
+.two {
+    color: #fAED26;
+    font-size: 38px;
+    margin-left: 95px;
+    /* margin-left: 202px; */
+    margin-top: -100px;
+}
+.free {
+    color: #9D8D8F;
+    font-size: 12px;
+    margin-left: 96px;
+    margin-top: -34px;
+}
+.four {
+    color: #fAED26;
+    font-size: 38px;
+    margin-top: 1px;
+    margin-left: -44px;
+}
+.four {
+    color: #fAED26;
+    font-size: 38px;
+    margin-top: -15px;
+    margin-left: -42px;
+}
+.five {
+    color: #9D8D8F;
+    font-size: 8px;
+    margin-left: 150px;
+    margin-top: -59px;
+}
+.facebook {
+    height: 32px;
+    filter: grayscale(1);
+     float: none; 
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-left: -40px;
+}
+.twitter {
+    height: 32px;
+    filter: grayscale(1);
+    margin-bottom: -50px;
+    margin-left: -136px;
+    float: none;
+}
+.run_text {
+    color: #fff;
+    margin-left: -25px;
+    margin-top: -31px;
+    float: none;
+    margin-right: 9px;
+    /* margin-bottom: -268px; */
+    position: relative;
+}
+.run {
+    margin-top: 26px;
+    height: 32px;
+    float: none;
+    margin-left: 180px;
+}
+.play_text {
+    color: #fff;
+    margin-top: 380px;
+    /* margin-left: 767px; */
+     float: none; 
+    margin-left: -26px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.play {
+    height: 32px;
+     float:  none; 
+    margin-bottom: -409px;
+    margin-left: 183px;
+}
+}
+@media (min-width:321px) and (max-width:420px) {
+    html {
+        max-width: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    
+    }
+    body {
+        max-width: 100%;
+        width: 100%;
+        overflow-x: hidden; 
+    }
+    header {
+        background:url(../IMG/fone.jpg) no-repeat center top/ cover;
+        height: 900px;
+        width: auto;
+    }
+    .conteiner {
+        height:auto;   
+        width: 1100px;
+        margin-left: 60px;
+    
+    }
+    .logo {
+        width: 70px;
+        padding-top: 60px;
+        margin-left: -51px;
+    }
+    .logo_text {
+        float: right;
+        margin-right: 957px;
+        margin-top: -257px;
+        font-size: 30px;
+        color: #fff;
+    }
+    .menu {
+        list-style-type: none;
+        float: right;
+        margin-right: 176px;
+        margin-top: 0;
+        margin-top: 20px;
+        margin-left: -77px;
+    }
+    .menu1 {
+        display: flex;
+    }
+    .one {
+        color: #fAED26;
+        font-size: 55px;
+        margin-top: -17px;
+        margin-left: -44px;
+    }
+    .two {
+        color: #fAED26;
+        font-size: 38px;
+        margin-left: 95px;
+        /* margin-left: 202px; */
+        margin-top: -100px;
+    }
+    .free {
+        color: #9D8D8F;
+        font-size: 12px;
+        margin-left: 96px;
+        margin-top: -34px;
+    }
+    .four {
+        color: #fAED26;
+        font-size: 38px;
+        margin-top: 1px;
+        margin-left: -44px;
+    }
+    .four {
+        color: #fAED26;
+        font-size: 38px;
+        margin-top: -15px;
+        margin-left: -42px;
+    }
+    .five {
+        color: #9D8D8F;
+        font-size: 8px;
+        margin-left: 150px;
+        margin-top: -59px;
+    }
+    .facebook {
+        height: 32px;
+        filter: grayscale(1);
+         float: none; 
+        margin-right: 100px;
+        margin-top: 40px;
+        margin-left: -40px;
+    }
+    .twitter {
+        height: 32px;
+        filter: grayscale(1);
+        margin-bottom: -50px;
+        margin-left: -136px;
+        float: none;
+    }
+    .run_text {
+        color: #fff;
+        margin-left: -25px;
+        margin-top: -31px;
+        float: none;
+        margin-right: 9px;
+        /* margin-bottom: -268px; */
+        position: relative;
+    }
+    .run {
+        margin-top: 26px;
+        height: 32px;
+        float: none;
+        margin-left: 180px;
+    }
+    .play_text {
+        color: #fff;
+        margin-top: 380px;
+        /* margin-left: 767px; */
+         float: none; 
+        margin-left: -26px;
+        padding-bottom: 10px;
+        position: relative;
+    }
+    .play {
+        height: 32px;
+         float:  none; 
+        margin-bottom: -409px;
+        margin-left: 183px;
+    }
+    }
+@media (min-width:321px) and (max-width:420px) {
+    html {
+        max-width: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    
+    }
+    body {
+        max-width: 100%;
+        width: 100%;
+        overflow-x: hidden; 
+    }
+    header {
+        background:url(../IMG/fone.jpg) no-repeat center top/ cover;
+        height: 900px;
+        width: auto;
+    }
+    .conteiner {
+        height:auto;   
+        width: 1100px;
+        margin-left: 60px;
+    
+    }
+    .logo {
+        width: 70px;
+        padding-top: 60px;
+        margin-left: -51px;
+    }
+    .logo_text {
+        float: right;
+        margin-right: 957px;
+        margin-top: -257px;
+        font-size: 30px;
+        color: #fff;
+    }
+    .menu {
+        list-style-type: none;
+        float: right;
+        margin-right: 176px;
+        margin-top: 0;
+        margin-top: 20px;
+        margin-left: -77px;
+    }
+    .menu1 {
+        display: flex;
+    }
+    .one {
+        color: #fAED26;
+        font-size: 55px;
+        margin-top: -17px;
+        margin-left: -44px;
+    }
+    .two {
+        color: #fAED26;
+        font-size: 38px;
+        margin-left: 95px;
+        /* margin-left: 202px; */
+        margin-top: -100px;
+    }
+    .free {
+        color: #9D8D8F;
+        font-size: 12px;
+        margin-left: 96px;
+        margin-top: -34px;
+    }
+    .four {
+        color: #fAED26;
+        font-size: 38px;
+        margin-top: 1px;
+        margin-left: -44px;
+    }
+    .four {
+        color: #fAED26;
+        font-size: 38px;
+        margin-top: -15px;
+        margin-left: -42px;
+    }
+    .five {
+        color: #9D8D8F;
+        font-size: 8px;
+        margin-left: 150px;
+        margin-top: -59px;
+    }
+    .facebook {
+        height: 32px;
+        filter: grayscale(1);
+         float: none; 
+        margin-right: 100px;
+        margin-top: 40px;
+        margin-left: -40px;
+    }
+    .twitter {
+        height: 32px;
+        filter: grayscale(1);
+        margin-bottom: -50px;
+        margin-left: -136px;
+        float: none;
+    }
+    .run_text {
+        color: #fff;
+        margin-left: -25px;
+        margin-top: -31px;
+        float: none;
+        margin-right: 9px;
+        /* margin-bottom: -268px; */
+        position: relative;
+    }
+    .run {
+        margin-top: 26px;
+        height: 32px;
+        float: none;
+        margin-left: 180px;
+    }
+    .play_text {
+        color: #fff;
+        margin-top: 380px;
+        /* margin-left: 767px; */
+         float: none; 
+        margin-left: -26px;
+        padding-bottom: 10px;
+        position: relative;
+    }
+    .play {
+        height: 32px;
+         float:  none; 
+        margin-bottom: -409px;
+        margin-left: 183px;
+    }
+    }
+    @media (min-width:421px) and (max-width:520px) {
+        html {
+            max-width: 100%;
+            width: 100%;
+            overflow-x: hidden;
+        
+        }
+        body {
+            max-width: 100%;
+            width: 100%;
+            overflow-x: hidden; 
+        }
+        header {
+            background:url(../IMG/fone.jpg) no-repeat center top/ cover;
+            height: 900px;
+            width: auto;
+        }
+        .conteiner {
+            height:auto;   
+            width: 1100px;
+            margin-left: 60px;
+        
+        }
+        .logo {
+            width: 70px;
+            padding-top: 60px;
+            margin-left: -51px;
+        }
+        .logo_text {
+            float: right;
+            margin-right: 957px;
+            margin-top: -257px;
+            font-size: 30px;
+            color: #fff;
+        }
+        .menu {
+            list-style-type: none;
+            float: right;
+            margin-right: 176px;
+            margin-top: 0;
+            margin-top: 20px;
+            margin-left: -11px;
+        }
+        .menu1 {
+            display: flex;
+        }
+        .one {
+            color: #fAED26;
+            font-size: 71px;
+            margin-top: -17px;
+            margin-left: -44px;
+        }
+        .two {
+            color: #fAED26;
+            font-size: 48px;
+            margin-left: 134px;
+            /* margin-left: 202px; */
+            margin-top: -126px;
+        }
+        .free {
+            color: #9D8D8F;
+            font-size: 12px;
+            margin-left: 138px;
+            margin-top: -43px;
+        }
+        .four {
+            color: #fAED26;
+            font-size: 38px;
+            margin-top: 1px;
+            margin-left: -44px;
+        }
+        .four {
+            color: #fAED26;
+            font-size: 38px;
+            margin-top: -15px;
+            margin-left: -42px;
+        }
+        .five {
+            color: #9D8D8F;
+            font-size: 8px;
+            margin-left: 150px;
+            margin-top: -59px;
+        }
+        .facebook {
+            height: 32px;
+            filter: grayscale(1);
+             float: none; 
+            margin-right: 100px;
+            margin-top: 40px;
+            margin-left: -40px;
+        }
+        .twitter {
+            height: 32px;
+            filter: grayscale(1);
+            margin-bottom: -50px;
+            margin-left: -136px;
+            float: none;
+        }
+        .run_text {
+            color: #fff;
+            margin-left: -25px;
+            margin-top: -31px;
+            float: none;
+            margin-right: 9px;
+            /* margin-bottom: -268px; */
+            position: relative;
+        }
+        .run {
+            margin-top: 26px;
+            height: 32px;
+            float: none;
+            margin-left: 180px;
+        }
+        .play_text {
+            color: #fff;
+            margin-top: 424px;
+            /* margin-left: 767px; */
+            float: none;
+            margin-left: -26px;
+            padding-bottom: 10px;
+            position: relative;
+        }
+        .play {
+            height: 32px;
+            float: none;
+            margin-bottom: -453px;
+            margin-left: 183px;
+        }
+        }
+        @media (min-width:521px) and (max-width:620px) {
+            html {
+                max-width: 100%;
+                width: 100%;
+                overflow-x: hidden;
+            
+            }
+            body {
+                max-width: 100%;
+                width: 100%;
+                overflow-x: hidden; 
+            }
+            header {
+                background:url(../IMG/fone.jpg) no-repeat center top/ cover;
+                height: 900px;
+                width: auto;
+            }
+            .conteiner {
+                height:auto;   
+                width: 1100px;
+                margin-left: 60px;
+            
+            }
+            .logo {
+                width: 70px;
+                padding-top: 60px;
+                margin-left: -51px;
+            }
+            .logo_text {
+                float: right;
+                margin-right: 957px;
+                margin-top: -257px;
+                font-size: 30px;
+                color: #fff;
+            }
+            .menu {
+                list-style-type: none;
+                float: right;
+                margin-right: 176px;
+                margin-top: 0;
+                margin-top: 20px;
+                margin-left: -11px;
+            }
+            .menu1 {
+                display: flex;
+            }
+            .one {
+                color: #fAED26;
+                font-size: 71px;
+                margin-top: -17px;
+                margin-left: -44px;
+            }
+            .two {
+                color: #fAED26;
+                font-size: 48px;
+                margin-left: 134px;
+                /* margin-left: 202px; */
+                margin-top: -126px;
+            }
+            .free {
+                color: #9D8D8F;
+                font-size: 12px;
+                margin-left: 138px;
+                margin-top: -43px;
+            }
+            .four {
+                color: #fAED26;
+                font-size: 38px;
+                margin-top: 1px;
+                margin-left: -44px;
+            }
+            .four {
+                color: #fAED26;
+                font-size: 38px;
+                margin-top: -15px;
+                margin-left: -42px;
+            }
+            .five {
+                color: #9D8D8F;
+                font-size: 8px;
+                margin-left: 150px;
+                margin-top: -59px;
+            }
+            .facebook {
+                height: 32px;
+                filter: grayscale(1);
+                 float: none; 
+                margin-right: 100px;
+                margin-top: 40px;
+                margin-left: -40px;
+            }
+            .twitter {
+                height: 32px;
+                filter: grayscale(1);
+                margin-bottom: -50px;
+                margin-left: -136px;
+                float: none;
+            }
+            .run_text {
+                color: #fff;
+                margin-left: -25px;
+                margin-top: -31px;
+                float: none;
+                margin-right: 9px;
+                /* margin-bottom: -268px; */
+                position: relative;
+            }
+            .run {
+                margin-top: 26px;
+                height: 32px;
+                float: none;
+                margin-left: 180px;
+            }
+            .play_text {
+                color: #fff;
+                margin-top: 424px;
+                /* margin-left: 767px; */
+                float: none;
+                margin-left: -26px;
+                padding-bottom: 10px;
+                position: relative;
+            }
+            .play {
+                height: 32px;
+                float: none;
+                margin-bottom: -453px;
+                margin-left: 183px;
+            }
+            }              
