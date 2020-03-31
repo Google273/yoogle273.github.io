@@ -3,42 +3,42 @@
  "name": "Скорочтец",
  "icons": [
        {
-     "src":"/IMG/facebook.jpg",
+     "src":"/facebook.jpg",
      "sizes": "16x16",
      "type": "image/png"
    },
    {
-     "src":"/IMG/facebook.jpg",
+     "src":"/facebook.jpg",
      "sizes": "32x32",
      "type": "image/png"
    },
    {
-     "src":"/IMG/facebook.jpg",
+     "src":"/facebook.jpg",
      "sizes": "48x48",
      "type": "image/png"
    },
    {
-     "src":"/IMG/facebook.jpg",
+     "src":"/facebook.jpg",
      "sizes": "72x72",
      "type": "image/png"
    },
    {
-     "src":"/IMG/facebook.jpg",
+     "src":"/facebook.jpg",
      "sizes": "96x96",
      "type": "image/png"
    },
    {
-     "src":"/IMG/facebook.jpg",
+     "src":"/facebook.jpg",
      "sizes": "144x144",
      "type": "image/png"
    },
    {
-     "src":"/IMG/facebook.jpg",
+     "src":"/facebook.jpg",
      "sizes": "192x192",
      "type": "image/png"
    },
    {
-     "src":"/IMG/facebook.jpg",
+     "src":"/facebook.jpg",
      "sizes": "512x512",
      "type": "image/png"
    }
